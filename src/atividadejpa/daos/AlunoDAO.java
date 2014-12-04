@@ -11,7 +11,7 @@ import atividadejpa.entidades.Aluno;
 
 @Stateless
 public class AlunoDAO implements AlunoDAORemote {
-	@PersistenceContext(unitName = "AlunosEJB-JNDI")
+	@PersistenceContext(unitName = "AlunosEJB-DS")
 	EntityManager em;
 
 	@SuppressWarnings("unchecked")

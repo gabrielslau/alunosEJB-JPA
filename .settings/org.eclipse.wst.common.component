@@ -2,7 +2,7 @@
     <wb-module deploy-name="AlunosEJB-JPA">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="AlunosEJB-JPA"/>
         <property name="java-output-path" value="/AlunosEJB-JPA/build/classes"/>
+        <property name="context-root" value="AlunosEJB-JPA"/>
     </wb-module>
 </project-modules>
